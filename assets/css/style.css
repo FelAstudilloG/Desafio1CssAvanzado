@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.sitio{
+ display: flex;
+}
+.menulateral{
+    width: 25%;
+}
+.iniciomenu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: #e0e0e0 solid 1px;
+} 
+.imagen{
+    height: 40px;    
+}
+.imagen img{
+    padding:0 0 0 12px;
+    height: 40px;
+    border-radius: 50%;
+}
+.maria{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.nuevochat{
+    padding:38px 0;
+    display:flex;
+    justify-content: center;
+}
+button{
+    padding: 15px 40px;
+    background-color: #a192ce;
+    border: none;
+    color:white;
+    
+}
+.chats{
+    padding: 20px ;
+    display:flex;
+    align-items: center;
+    border-top: #e0e0e0 solid 1px;
+    
+}
+.chatimagen{
+    height: 50px;
+}
+.chatimagen img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.resto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.resto h1{
+    font-size:45px;
+    font-weight: 400;
+    padding-bottom:10px;
+}
+.resto h2{
+    font-size:16px;
+    font-weight: 300;
+
+}
+.resto img{
+    height: 280px;
+    border-radius: 12px;
+}
